@@ -6,15 +6,12 @@ export const GENERAL_INFO = {
     emailSubject: "Vamos colaborar em um projeto",
     emailBody: 'Olá Pedro, estou entrando em contato com você porque...',
 
-    oldPortfolio: 'https://www.legacy.me.toinfinite.dev',
-    upworkProfile: 'https://www.upwork.com/freelancers/tajmirul',
+    upworkProfile: 'https://www.linkedin.com/in/pedro-henrique-d-m-santos/',
 };
 
 export const SOCIAL_LINKS = [
     { name: 'github', url: 'https://github.com/Tajmirul' },
-    { name: 'linkedin', url: 'https://www.linkedin.com/in/tajmirul' },
-    { name: 'facebook', url: 'https://www.facebook.com/tajmirul.2000' },
-    { name: 'Old Version', url: GENERAL_INFO.oldPortfolio },
+    { name: 'linkedin', url: 'https://www.linkedin.com/in/pedro-henrique-d-m-santos/' },
 ];
 
 export const MY_STACK = {
@@ -72,6 +69,10 @@ export const MY_STACK = {
         {
             name: 'Express.js',
             icon: '/logo/express.png',
+        },
+        {
+            name: 'Django',
+            icon: '/logo/django.png',
         },
     ],
     database: [
