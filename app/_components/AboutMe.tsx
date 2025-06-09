@@ -61,7 +61,6 @@ const AboutMe = () => {
                 </h2>
 
                 <p className="pb-3 border-b text-muted-foreground slide-up-and-fade">
-                    Este sou eu.
                 </p>
 
                 <div className="grid md:grid-cols-12 mt-9">
