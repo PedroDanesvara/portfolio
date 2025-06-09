@@ -18,15 +18,15 @@ const MENU_LINKS = [
         url: '/',
     },
     {
-        name: 'About Me',
+        name: 'Sobre mim',
         url: '/#about-me',
     },
     {
-        name: 'Experience',
+        name: 'Experiência',
         url: '/#my-experience',
     },
     {
-        name: 'Projects',
+        name: 'Projetos',
         url: '/#selected-projects',
     },
 ];
@@ -147,7 +147,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="w-full max-w-[300px] mx-8 sm:mx-auto">
-                    <p className="text-muted-foreground mb-4">GET IN TOUCH</p>
+                    <p className="text-muted-foreground mb-4">ENTRE EM CONTATO</p>
                     <a href={`mailto:${GENERAL_INFO.email}`}>
                         {GENERAL_INFO.email}
                     </a>
